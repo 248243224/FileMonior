@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudClient", "CloudClient\CloudClient.csproj", "{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudClient.Tester", "CloudClient.Tester\CloudClient.Tester.csproj", "{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileMonitorDll", "FileMonitorDll\FileMonitorDll\FileMonitorDll.vcxproj", "{D3013523-69C3-4B88-8753-CCF42BB14E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Debug|x86.Build.0 = Debug|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E4AB5E7-49D8-4155-89E0-09E026AC75D3}.Release|x86.Build.0 = Release|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Debug|x86.Build.0 = Debug|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Release|x86.ActiveCfg = Release|Any CPU
+		{D12489FE-75E0-4A08-AAE1-C8F7D91B4BBA}.Release|x86.Build.0 = Release|Any CPU
+		{D3013523-69C3-4B88-8753-CCF42BB14E48}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D3013523-69C3-4B88-8753-CCF42BB14E48}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3013523-69C3-4B88-8753-CCF42BB14E48}.Debug|x86.Build.0 = Debug|Win32
+		{D3013523-69C3-4B88-8753-CCF42BB14E48}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D3013523-69C3-4B88-8753-CCF42BB14E48}.Release|x86.ActiveCfg = Release|Win32
+		{D3013523-69C3-4B88-8753-CCF42BB14E48}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
